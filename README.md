@@ -1,8 +1,8 @@
-# case-variable
+# case-escape
 
-Handle variables in template for [decanat-engine](https://github.com/decanat/engine).
+Handle escaped tags in template for [decanat-engine](https://github.com/decanat/engine).
 
-## Installation
+## Install
 
 Using [component](https://github.com/component/component)
 
@@ -15,10 +15,9 @@ Using [npm](http://npmjs.org/) for [browserify](http://browserify.org/)
 ## Matches
 
 ```
-{variable}
-{a.nested.variable}
-{variable-with-dashes}
-{variable_with_low_dashes}
+\{variable}
+\{for variable in array}
+\{>partial}
 ```
 
 ## Test

@@ -3,7 +3,7 @@ var assert = require('assert');
 var fn = require('..'),
     re = new RegExp('({' + fn.pattern + '})');
 
-describe('case-variable', function(){
+describe('case-escape', function(){
     it('should have offset but pattern', function(){
         assert.equal(fn.offset, 0);
         assert.equal(fn.limit, 1);

@@ -1,7 +1,7 @@
 {
   "name": "decanat-engine-case-escape",
-  "description": "Handle escaped data in template for `decanat-engine`.",
-  "version": "0.5.0",
+  "description": "Handle escaped tags in template.",
+  "version": "0.5.1",
   "author": "Mushex Antaranian",
   "license": "MIT",
   "keywords": [
@@ -20,10 +20,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "component": "^1.0.0-rc5",
     "mocha": "^1.20.1",
-    "jshint": "^2.5.1",
-    "chai": "^1.9.1"
+    "jshint": "^2.5.1"
   },
   "directories": {
     "test": "test"

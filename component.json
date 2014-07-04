@@ -1,6 +1,6 @@
 {
   "name": "engine-case-escape",
-  "description": "Handle escaped data in template for `decanat-engine`.",
+  "description": "Handle escaped tags in template.",
   "version": "0.5.0",
   "license": "MIT",
   "keywords": [
