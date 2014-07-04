@@ -1,0 +1,35 @@
+{
+  "name": "decanat-engine-case-escape",
+  "description": "Handle escaped data in template for `decanat-engine`.",
+  "version": "0.5.0",
+  "author": "Mushex Antaranian",
+  "license": "MIT",
+  "keywords": [
+    "decanat-engine"
+  ],
+  "homepage": "https://github.com/decanat/engine-case-escape",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/decanat/engine-case-escape.git"
+  },
+  "bugs": {
+    "url": "https://github.com/decanat/engine-case-escape/issues"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "component": "^1.0.0-rc5",
+    "mocha": "^1.20.1",
+    "jshint": "^2.5.1",
+    "chai": "^1.9.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "index.js"
+}
